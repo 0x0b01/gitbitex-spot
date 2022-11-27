@@ -17,10 +17,10 @@ package service
 import (
 	"crypto/md5"
 	"fmt"
-	"github.com/dgrijalva/jwt-go"
 	"github.com/gitbitex/gitbitex-spot/conf"
 	"github.com/gitbitex/gitbitex-spot/models"
 	"github.com/gitbitex/gitbitex-spot/models/mysql"
+	"github.com/golang-jwt/jwt/v4"
 	"github.com/pkg/errors"
 	"time"
 )

@@ -16,14 +16,15 @@ package models
 
 import (
 	"encoding/json"
+	"reflect"
+	"time"
+
 	"github.com/gitbitex/gitbitex-spot/conf"
 	"github.com/gitbitex/gitbitex-spot/utils"
+	"github.com/go-mysql-org/go-mysql/canal"
 	"github.com/go-redis/redis"
 	"github.com/shopspring/decimal"
 	"github.com/siddontang/go-log/log"
-	"github.com/siddontang/go-mysql/canal"
-	"reflect"
-	"time"
 )
 
 type BinLogStream struct {
